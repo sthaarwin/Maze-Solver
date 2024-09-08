@@ -27,4 +27,30 @@ This project is a C++ application that generates a random maze and solves it usi
     ```bash
     g++ src/*.cpp -o output/mazeSolver.exe
 
+## Run the Application
+
+Execute the built application:
+
+    ```bash
+    ./output/mazeSolver.exe
+
+## File Structure
+
+- **`src/`**: Contains the source code files.
+  - **`main.cpp`**: Entry point of the application. Initializes, generates, solves, and prints the maze.
+  - **`mazeGenerator.cpp`**: Contains functions for generating and printing the maze.
+  - **`mazeSolver.cpp`**: Contains functions for solving the maze.
+  - **`mazeGenerator.hpp`**: Header file for `mazeGenerator.cpp`.
+  - **`mazeSolver.hpp`**: Header file for `mazeSolver.cpp`.
+
+- **`output/`**: Directory where the compiled executable is placed.
+
+## Usage
+
+- **Generate a Maze**: The maze will be randomly generated when you run the application.
+- **Solve the Maze**: The application will attempt to find a path from the start to the end of the maze and mark it.
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests for any improvements or bug fixes.
 
