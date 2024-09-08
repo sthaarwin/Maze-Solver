@@ -25,7 +25,7 @@ This project is a C++ application that generates a random maze and solves it usi
 
 2. **Build the Project**
     ```bash
-    g++ src/*.cpp -o output/mazeSolver.exe
+    g++ src/*.cpp src/*hpp -o output/mazeSolver.exe
 
 ## Run the Application
 
