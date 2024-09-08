@@ -21,4 +21,10 @@ This project is a C++ application that generates a random maze and solves it usi
 
    ```bash
    git clone https://github.com/sthaarwin/Maze-Solver.git
-   cd Maze-Solver
+
+
+2. **Build the Project**
+    ```bash
+    g++ src/*.cpp -o output/mazeSolver.exe
+
+
