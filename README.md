@@ -30,9 +30,9 @@ This project is a C++ application that generates a random maze and solves it usi
 ## Run the Application
 
 Execute the built application:
-
     ```bash
     ./output/mazeSolver.exe
+
 
 ## File Structure
 
