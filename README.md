@@ -29,7 +29,7 @@ This project is a C++ application that generates a random maze and solves it usi
 
 ## Run the Application
     ```bash
-    g++ src/*.cpp src/*hpp -o output/mazeSolver.exe
+    ./output/mazeSolver.exe
 
 
 ## File Structure
